@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-XYZ, a private US firm, is exploring investment opportunities in the cab industry. To support their Go-to-Market strategy, an in-depth market analysis has been conducted using data from two prominent cab companies. The objective is to identify which company presents the most promising investment opportunity based on various customer and transaction metrics.
+A private US firm is exploring investment opportunities in the cab industry. To support their Go-to-Market strategy, an in-depth market analysis has been conducted using data from two prominent cab companies. The objective is to identify which company presents the most promising investment opportunity based on various customer and transaction metrics.
 
 ### Data Sources
 
