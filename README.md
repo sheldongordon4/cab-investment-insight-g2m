@@ -38,6 +38,11 @@ Four datasets were used for this case study:
 14. Gender profitability per age group
 15. Gender profitability per income group
 
+<img width="932" alt="Screenshot 2024-08-26 at 10 20 37" src="https://github.com/user-attachments/assets/3db4f0b6-5696-485e-a0e7-e44de179fe38">
+<img width="938" alt="Screenshot 2024-08-26 at 10 21 13" src="https://github.com/user-attachments/assets/effb4e66-1d38-4077-af37-5e9ef4cc3ec3">
+<img width="938" alt="Screenshot 2024-08-26 at 10 21 36" src="https://github.com/user-attachments/assets/2a47192f-a491-4dfe-9637-3a5095a8803a">
+
+
 ### Results/Findings
 - Distance traveled is strongly correlated with trip cost but weakly correlated with trip profit, possibly due to price discounts or issues with the pricing model.
 - Yellow Cab outperforms Pink Cab in all 20 cities studied, as well as in transactions, revenue, and profit. Yellow Cab has about 3 times more transactions and is 7.5 times more profitable.
