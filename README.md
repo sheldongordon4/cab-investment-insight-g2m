@@ -1,61 +1,48 @@
 # Case Study: G2M Insight for Cab Investment
 
-## Project Overview
+This case study presents a data-driven market analysis to support the Go-to-Market (G2M) strategy for a private U.S. firm considering investment in the cab industry. Using data from two major cab companies, the goal is to evaluate customer behavior, operational performance, and profitability to determine the most promising investment option.
 
-A private US firm is exploring investment opportunities in the cab industry. To support their Go-to-Market strategy, an in-depth market analysis has been conducted using data from two prominent cab companies. The objective is to identify which company presents the most promising investment opportunity based on various customer and transaction metrics.
+### Project Overview
+The analysis combines four datasets covering cab rides, customer profiles, city demographics, and transactions. By merging and cleaning the data, a master dataset was built to explore transaction-level profitability, customer demographics, and regional performance.
 
 ### Data Sources
+- 'Cab_data.csv': Company-wise trip data with fare and cost details
+- City.csv: Demographic and operational data by city
+- customer_ID.csv: Customer-level information
+- transaction_ID.csv: Mapping of transactions to companies and customers
 
-Four datasets were used for this case study:
-- Cab data: "Cab_data.csv" file, containing detailed information about each cab company and their transactions.
-- City data: "City.csv" file, containing information about the user bases and cities within which each cab company operates.
-- Customer ID data: "customer_ID.csv" file, containing detailed information about each customer and their transactions.
-- Transaction ID data: "transaction_ID.csv" file, containing detailed information about each transaction and the associated company.
-
-### Tools
-- JupyterLab Notebook
-
-### Data cleaning/preprocessing
-- Review and understand field names, data types, and relationships across datasets.
-- Merge datasets to create a comprehensive master dataset.
-- Rename columns and format data types where necessary.
-- Perform feature engineering.
-
-### Exploratory Data Analysis
-1. Relationship between trip profit and price charged
-2. Number of transactions per company
-3. Gross revenue per company
-4. Gross profit per company
-5. Number of transactions per gender
-6. Company profitability per city
-7. Gender profitability per city
-8. Profitability per year
-9. Profitability trend
-10. Total number of customers per year per company
-11. Customer number trend
-12. Number of customers per age group
-13. Number of customer per income group
-14. Gender profitability per age group
-15. Gender profitability per income group
+🧰 Tools & Techniques
+Python
+JupyterLab Notebook
+Pandas, NumPy, Seaborn, Matplotlib
+Data Cleaning & Preprocessing
+Feature Engineering
+Exploratory Data Analysis (EDA)
+🔍 Key EDA Focus Areas
+💰 Trip Profit vs. Price Charged
+📊 Transactions, Revenue & Profit per Company
+🏙️ Profitability by City
+👤 Customer Distribution by Gender, Age, and Income
+📈 Profitability Trends Over Time
+👥 Customer Base Growth by Year and Segment
+🧮 Demographic Profitability (by Age, Income, Gender)
 
 <img width="932" alt="Screenshot 2024-08-26 at 10 20 37" src="https://github.com/user-attachments/assets/3db4f0b6-5696-485e-a0e7-e44de179fe38">
-<img width="938" alt="Screenshot 2024-08-26 at 10 21 13" src="https://github.com/user-attachments/assets/effb4e66-1d38-4077-af37-5e9ef4cc3ec3">
-<img width="938" alt="Screenshot 2024-08-26 at 10 21 36" src="https://github.com/user-attachments/assets/2a47192f-a491-4dfe-9637-3a5095a8803a">
 
-
-### Results/Findings
-- Distance traveled is strongly correlated with trip cost but weakly correlated with trip profit, possibly due to price discounts or issues with the pricing model.
-- Yellow Cab outperforms Pink Cab in all 20 cities studied, as well as in transactions, revenue, and profit. Yellow Cab has about 3 times more transactions and is 7.5 times more profitable.
-- New York is 8 times more profitable than Los Angeles, the second most profitable city.
-- Both companies have stable customer bases, but Yellow Cab has about 3 times more customers.
-- There are more male users than female users on both platforms, especially in more profitable cities, with the widest gender gap in New York.
-- The 26–35 age group is the most frequent user group, followed by 19–25 and 36–45 age groups. Higher income groups use the services more frequently, true for both genders.
-- Profitability per age and income groups mirrors the customer distribution: the 26–35 age group is the most profitable, and higher income groups are more profitable.
-
-### Recommendations
-1. Yellow Cab is the superior investment option, outperforming Pink Cab in all metrics and cities studied.
-2. Focus Areas:
-  - Establish major urban hubs: New York, Los Angeles, Washington DC, Chicago, and Boston, as these are the most profitable.
-  - Launch a special campaign for New York, the most profitable city by a significant margin.
-3. Target Demographics: Focus on male users, particularly those aged 19-45, and higher income earners.
-4. Pricing Review: Review the pricing model to ensure it is optimized and free of issues.
+📈 Results & Insights
+Distance vs. Profit: While trip distance is strongly correlated with cost, it's weakly correlated with profit — possibly due to pricing inconsistencies or discounts.
+Yellow Cab Dominance: Yellow Cab is the clear market leader — with 3x the transactions and 7.5x the profit of Pink Cab, and dominance in all 20 cities analyzed.
+Regional Trends:
+New York is the most profitable city (8× more than Los Angeles).
+Other key hubs: Los Angeles, Washington DC, Chicago, Boston
+Demographic Trends:
+Male users dominate in usage and profitability, especially in top cities.
+Most frequent and profitable age group: 26–35, followed by 19–25 and 36–45.
+Higher income groups contribute significantly more to revenue.
+🧭 Strategic Recommendations
+✅ Invest in Yellow Cab, as it outperforms Pink Cab in all key metrics.
+🌆 Focus on Urban Hubs: Especially New York, Los Angeles, and other high-profit metros.
+🎯 Target Demographics:
+Males aged 19–45
+High-income earners
+💸 Pricing Strategy Review: Investigate weak profit correlation with trip distance to refine pricing structure and boost margins.
